@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    background-color: #8d8988;
+    background-image: url(img/header_bg.png);
+    background-position: center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 800px;
+    &__content{
+        width: 1200px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__logo{
+        margin-left: 30px;
+        margin-top: 32px;
+    }
+    &__menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 35px;
+        font-size: 16px;
+        font-family: "Poppins";
+        color: rgb(255, 255, 255);
+        line-height: 2;
+    }
+    &__menu_item{
+       margin-left: 38px;
+       margin-top: -34px;
+    }
+    &__title{
+        font-size: 55px;
+        font-family: "Poppins";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        letter-spacing: 4.3px;
+        text-align: center;
+        font-weight: bold;
+        position: absolute;
+        left: 215px;
+        top: 290px;     
+    }
+    &__sub_title{
+        font-size: 28px;
+        font-family: "Poppins";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        position: absolute;
+        letter-spacing: 1px;
+        left: 398px;
+        top: 385px; 
+    }
+  
+    a:hover{
+        color: #e71cb4;
+        border-bottom: 2px solid #e71cb4;
+    }
+    &__button{
+        position: absolute;
+        width: 270px;
+        height: 50px;
+        left: 540px;
+        top: 490px; 
+        background-color: transparent;
+        border-radius: 10px;
+        border: 2px solid #dddddd;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "Poppins";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
